@@ -1,5 +1,4 @@
 import os
-os.system("cd ~")
 os.system("sudo apt-get update")
 os.system("sudo apt-get upgrade -y")
 os.system("sudo apt install steamlink -y")
@@ -16,11 +15,10 @@ while choiceloop == 1:
         choiceloop = 0
     else:
         print("invalid choice")
-os.system("cd ~")
 os.system("git clone https://github.com/Botspot/autostar")
-os.system("~/autostar/main.sh setup")
+os.system("autostar/main.sh setup")
 os.system("mkdir ~/.config/autostart")
-os.system("cp ~/Wireless-Deck-to-TV/autorun.desktop ~/.config/autostart")
+os.system("cp autorun.desktop ~/.config/autostart")
 print("installing steam link exit with ctrl + C once finished")
 os.system("steamlink")
 choiceloop = 0
