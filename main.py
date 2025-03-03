@@ -34,3 +34,4 @@ while choiceloop == 0:
         choiceloop = 1
     else:
         print("invalid choice")
+print("You can now reboot")
