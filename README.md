@@ -46,4 +46,5 @@ Click the gear in the top right and select streaming settings then customize and
 - bitrate limit 50 MBits/s
 - HVEC video enabled
 - low latency networking enabled
+
 *If you find any bugs please report them I will try and fix them if I can*
