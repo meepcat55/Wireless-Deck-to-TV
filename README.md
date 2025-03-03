@@ -48,3 +48,4 @@ Click the gear in the top right and select streaming settings then customize and
 - low latency networking enabled
 
 *If you find any bugs please report them I will try and fix them if I can*
+I hate this code base and how manual this is so im working on rewriting the entire structure
