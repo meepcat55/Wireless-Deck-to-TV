@@ -40,7 +40,7 @@
 - enter the password you entered in imager
 - paste this string and press enter `git clone https://github.com/meepcat55/Wireless-Deck-to-TV.git && cd Wireless-Deck-to-TV && python3 main.py `
 Once this is finished just pair your steam deck
-I reccomend changing some streaming settings for optimal performance
+I recommend changing some streaming settings for optimal performance
 Click the gear in the top right and select streaming settings then customize and change the following
 - video beautiful
 - bitrate limit 50 MBits/s
