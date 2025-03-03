@@ -14,44 +14,21 @@
 ## Setup
 - [Install raspberry pi imager](https://www.raspberrypi.com/software/)
 - Plug in your SD card
-- Follow image instructions below
-  
-
-![Screenshot_20250302_144640.png](:/af2d3a71598f442abd39f4952ea5a14b)
-
-
-
-![Screenshot_20250302_144649.png](:/be042a79736245fc9ddd02e2913c1626)
-
-
-
-![Screenshot_20250302_144655.png](:/38d94eadbbdf4f43bf0035596947f2e4)
-
-
-
-- Select Raspberry Pi os 64 bit
-
-
-
-
-![Screenshot_20250302_144746.png](:/a2d6a1b64e124ad282b5a1dd896da163)
-
-
-
-![Screenshot_20250302_144953.png](:/657730e8f2ac46359e3e33fd31c8e011)
-
-
-
-![Screenshot_20250302_145106.png](:/f305899642864bb399fbe11fe8786552)
-
-
-
-![Screenshot_20250302_145155.png](:/0ddbff75005240098282862652a453cd)
-
-
-
-![Screenshot_20250302_145205.png](:/5f3ff6b459b84a6b96c0de8be2ce2cbf)
-
+- Open imager
+- Select choose device
+- Select your PI
+- Select Choose os
+- Select Raspberry Pi OS (64-bit)
+- Select Choose Storage
+- Select your SD card
+- Select next
+- Select edit settings
+- make sure of the following
+-  the hostname is raspberrypi.local
+- a username and password is set
+- ssh is enabled
+- then select save
+- and then select yes
 - Wait for it to finish
 - Remove the SD card and put it in your Pi
 - Plug your Pi into Ethernet, power, and HDMI 
@@ -63,9 +40,10 @@
 - enter the password you entered in imager
 - paste this string and press enter `git clone https://github.com/meepcat55/Wireless-Deck-to-TV.git && cd Wireless-Deck-to-TV && python3 main.py `
 Once this is finished just pair your steam deck
-## Recommended changes
+I reccomend changing some streaming settings for optimal performance
 Click the gear in the top right and select streaming settings then customize and change the following
 - video beautiful
 - bitrate limit 50 MBits/s
 - HVEC video enabled
 - low latency networking enabled
+  
