@@ -1,6 +1,6 @@
 ## Requirements
 - A Steam Deck or other linux computer
-- A raspberry Pi 5 2GB or better (A raspberry pi 4 may work but I have not tested it)
+- A raspberry Pi 5 or 4 or maybe 3
 - A spare micro SD card that you are ok with deleting all data on
 - Ethernet to your raspberry pi
 - A WiFi network that can get at least 100 mbps over the local network
