@@ -19,6 +19,7 @@ while choiceloop == 0:
         quit()
     else:
         print("Invalid choice")
+choiceloop = 1
 while choiceloop == 0:
     print("Have you set a sudo password yes/no")
     var = input("")
