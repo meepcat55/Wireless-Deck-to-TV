@@ -21,6 +21,8 @@
 - To pair your steam deck make sure its in gaming mode, select the gear in the top left of steamlink and select computers then select your steam deck and pair it
 - Now all you need to do is click play and your steam deck will be live streamed to your TV
 ## Using bluetooth devices to control steamlink
+- If you have a keyboard or mouse just use the one built into steamlink
+- If not read futher
 - In konsole on your steam deck with your raspberry Pi powered on and connected to Ethernet run the command ssh steamlink@steamlink.local
 - It will have a prompt something something fingerprint just answer yes
 - Then type the password steamlink and press enter
