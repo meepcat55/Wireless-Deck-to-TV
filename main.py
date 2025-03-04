@@ -33,8 +33,7 @@ while choiceloop == 0:
         choiceloop = 1
     else:
         print("Invalid choice")
-os.system("flatpak install flathub org.mozilla.firefox -y")
-os.system("flatpak run org.mozilla.firefox")
+os.system("flatpak --user install flathub org.mozilla.firefox -y")
 print("Download the file opened in google drive in firefox to the downloads folder")
 os.system("flatpak run org.mozilla.firefox https://drive.google.com/file/d/1B_eYMYBwzQQioxQ9drH0GuSux501-9Qs/view")
 input("Press A once download completed")
