@@ -34,6 +34,7 @@ while choiceloop == 0:
     else:
         print("Invalid choice")
 os.system("flatpak --user install flathub org.mozilla.firefox -y")
+# Im working on porting this to my own ftp server
 print("Download the file opened in google drive in firefox to the downloads folder close firefox when finished")
 os.system("flatpak run org.mozilla.firefox https://drive.google.com/file/d/1B_eYMYBwzQQioxQ9drH0GuSux501-9Qs/view")
 input("Press A once download completed")
