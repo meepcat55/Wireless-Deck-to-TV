@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=autorun
-Exec=bash -c 'while true; do sleep 5 && steamlink; done'
-Terminal=false
-Type=Application
-X-GNOME-Autostart-enabled=true
-Hidden=false
