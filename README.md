@@ -26,7 +26,7 @@
 - Then type the password steamlink and press enter
 - Once you are logged in run the command bluetooth
 - [The UI for bluetooth is powered by pythops bluetui ](https://github.com/pythops/bluetui)
--Use the controls listed below to pair your bluetooth device
+- Use the controls listed below to pair your bluetooth device
 ## 🪄 Usage
 
 ### Global
