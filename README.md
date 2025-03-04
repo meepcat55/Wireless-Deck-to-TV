@@ -4,7 +4,7 @@
 - A spare micro SD card that you are ok with deleting all data on
 - Ethernet to your raspberry pi
 - A WiFi network that can get at least 100 mbps over the local network
-- Some kind of wireless remote controller for the raspberry pi like a wireless mouse, wireless keyboard, some kind of controller, a flipper zero, or anything else with buttons that the Pi can understand
+- Some kind of wireless remote controller for the raspberry pi like a wireless mouse, wireless keyboard, some kind of controller, a flipper zero, or anything else with buttons that the Pi can understand I recommend a logitech wireless mouse using a usb receiver 
 - A display for the raspberry pi like a TV or monitor
 - An internet connection
 - Electricity
