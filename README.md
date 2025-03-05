@@ -1,6 +1,6 @@
 ## Requirements
 - A Steam Deck or other linux computer
-- A raspberry Pi 5 or 4 or maybe 3
+- A raspberry Pi 5 or 4 or 3 (not recommended)
 - A spare micro SD card that you are ok with deleting all data on
 - Ethernet to your raspberry pi
 - A WiFi network that can get at least 100 mbps over the local network
@@ -76,7 +76,9 @@ To change settings select the gear in the top right of steam link > Streaming > 
 - Change video to balanced
 - Change bandwidth limit to 40 Mbps
 - **Raspberry Pi 3**
-- Currently untested
+- Due to the raspberry Pi 3 lacking HVEC hardware decoding it has to use h264 which results in far worse visual quality combine with the lower specs requiring lower bitrates
+- Change video to fast
+- Change bandwidth limit to 20 Mbps
 ## Debug info
 - The default user is steamlink
 - The default password is steamlink
